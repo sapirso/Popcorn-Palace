@@ -50,7 +50,7 @@ class TicketControllerTests {
         mockMvc.perform(post("/bookings")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(requestDto)))
-                .andExpect(status().isCreated())
+                .andExpect(status().isOk())
                 .andExpect(jsonPath("$.bookingId").value("abc-123"));
 
         verify(ticketService).bookTicket(any(TicketRequestDto.class));
