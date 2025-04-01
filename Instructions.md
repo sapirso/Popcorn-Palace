@@ -12,9 +12,6 @@ Docker (optional, for database)
    Add to system PATH
    Verify installation: mvn -version
 
-## Compilation
-1. `mavn-fdsjkghsfj`
-2. `fdjsakhgs`
 
 ## run
 1. start the database:
