@@ -12,15 +12,14 @@ Docker (optional, for database)
    Add to system PATH
    Verify installation: mvn -version
 
-## Run with Docker
-1.run 'docker-compose up'
 
 ## run
 1. start the database:
    `Install PostgreSQL/MySQL`
 2. start the app:
    `./mvnw spring-boot:run`
-3. The app will run on port 8080.
+3.run 'docker-compose up'
+4. The app will run on port 8080.
    $ curl http://localhost:8080
    Greetings from Spring Boot!
 
