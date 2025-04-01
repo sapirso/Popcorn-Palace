@@ -36,12 +36,11 @@ Docker (optional, for database)
    Verify installation: mvn -version
 
 ## run
-1. start the database:
-   `Install PostgreSQL/MySQL`
+1. start the docker database:
+   `docker-compose up`
 2. start the app:
    `mvn spring-boot:run`
-3.run 'docker-compose up'
-4. The app will run on port 8080. To change that, modify the server.port setting in the application.yml file.
+3. The app will run on port 8080. 
 
 ## Testing
 1. `mvn test`
